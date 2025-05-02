@@ -5,7 +5,7 @@ from coach_selection.select_coach import select_coach
 from memory.session_memory import qdrant, collection_name, embed_text
 from micro_coaches.coach_tara import get_tara_prompt
 from micro_coaches.coach_ravi import get_ravi_prompt
-from qdrant_client.models import PointStruct, VectorParams, Distance
+from qdrant_client.models import PointStruct
 import os
 import hashlib
 from dotenv import load_dotenv

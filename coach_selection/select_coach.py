@@ -6,6 +6,7 @@ def select_coach(age_group: str, role: str) -> str:
         return "tara"
     else:
         return "ravi"
+
     if role in ["life coach", "goal partner", "cheerleader", "agony aunt"]:
         return "tara"
     elif role in ["study guru", "career compass", "guru guide"]:

@@ -1,0 +1,9 @@
+streamlit
+requests
+langchain
+dotenv
+qdrant_client
+openai
+fastapi
+uvicorn
+pydantic

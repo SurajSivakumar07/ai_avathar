@@ -1,7 +1,7 @@
 import hashlib
 
 from qdrant_client import QdrantClient
-from qdrant_client.models import PointStruct, VectorParams, Distance
+from qdrant_client.models import  VectorParams, Distance
 
 
 # Init Qdrant client
